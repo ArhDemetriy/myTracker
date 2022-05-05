@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin id="MyTracker" version="0.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
 	<name>MyTracker</name>
+	<repo>https://github.com/DenisCom3/myTracker</repo>
 	<js-module name="MyTracker" src="www/MyTrackerPlugin.js">
 		<clobbers target="window.plugins.MyTracker" />
 	</js-module>
@@ -19,10 +20,12 @@
     		<uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
 		</config-file>
 		
-		<source-file src="src/android/MyTrackerPlugin.java" target-dir="src/MyTracker" />
+		
 
 		<framework src="com.my.tracker:mytracker-sdk:3.0.5" />
 		<framework src="com.google.android.gms:play-services-ads-identifier:18.0.1" />
 		<framework src="com.android.installreferrer:installreferrer:2.2" />
+
+		<source-file src="src/android/MyTrackerPlugin.java" target-dir="src/MyTracker" />
 	</platform>
 </plugin>
