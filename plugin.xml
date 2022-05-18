@@ -9,8 +9,8 @@
 	<platform name="android">
 
 		<config-file parent="/*" target="res/xml/config.xml">
-			<feature name="MyTracker">
-				<param name="android-package" value="MyTracker.MyTracker" />
+			<feature name="MyTrackerPlugin">
+				<param name="android-package" value="MyTracker.MyTrackerPlugin" />
 			</feature>
 		</config-file>
 		
