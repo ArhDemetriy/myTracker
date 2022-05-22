@@ -24,7 +24,7 @@
 		<framework src="com.my.tracker:mytracker-sdk:3.0.5" />
 		
 		<!-- https://mvnrepository.com/artifact/com.google.android.gms/play-services-ads-identifier -->
-		<framework src="com.google.android.gms:play-services-ads-identifier:18.0.1" />
+		<framework src="com.google.android.gms:play-services-ads-identifier:18.0.0" />
 		<framework src="com.android.installreferrer:installreferrer:2.2" />
 
 		<source-file src="src/android/MyTrackerPlugin.java" target-dir="src/MyTracker" />
